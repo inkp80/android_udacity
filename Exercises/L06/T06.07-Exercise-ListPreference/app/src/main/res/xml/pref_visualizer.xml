@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_show_bass_default"
+        android:key="@string/pref_show_bass_key"
+        android:summaryOff="@string/pref_show_false"
+        android:summaryOn="@string/pref_show_true"
+        android:title="@string/pref_show_bass_label" />
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_show_mid_range_default"
+        android:key="@string/pref_show_mid_range_key"
+        android:summaryOff="@string/pref_show_false"
+        android:summaryOn="@string/pref_show_true"
+        android:title="@string/pref_show_mid_range_label" />
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_show_treble_default"
+        android:key="@string/pref_show_treble_key"
+        android:summaryOff="@string/pref_show_false"
+        android:summaryOn="@string/pref_show_true"
+        android:title="@string/pref_show_treble_label" />
+
+    <ListPreference
+        android:defaultValue="red"
+        android:entries="@array/pref_color_option_lables"
+        android:entryValues="@array/pref_color_option_values"
+        android:key="@string/pref_color_key"
+        android:title="@string/pref_color_lable"/>
+
+    <!-- TODO (1) Add a list preference (DONE)-->
+
+</PreferenceScreen>
