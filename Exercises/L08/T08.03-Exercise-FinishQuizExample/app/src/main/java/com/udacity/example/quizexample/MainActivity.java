@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(!mData.moveToNext()){
             mData.moveToFirst();
-            Toast.makeText(Main, "End of Test, Move to first", Toast.LENGTH_SHORT); //여긴 또 왜 안되니..
+            Toast.makeText(Main, "End of Test, Move to first", Toast.LENGTH_SHORT).show(); //여긴 또 왜 안되니..
         }//why Toast doesn't work?
 
 

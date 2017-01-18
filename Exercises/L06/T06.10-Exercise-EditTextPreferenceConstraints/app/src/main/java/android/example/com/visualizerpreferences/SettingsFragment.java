@@ -31,6 +31,7 @@ import android.widget.Toast;
 //차이점에 대해서 참고할 것.
 //To limit the acceptable values between 0 (non inclusive) and 3 (inclusive) we opted to use a PreferenceChangeListener
 // -this is not the same as a SharedPreferenceChangeListener.
+
 //The differences are:
 //SharedPreferenceChangeListener is triggered after any value is saved to the SharedPreferences file.
 //PreferenceChangeListener is triggered before a value is saved to the SharedPreferences file.
